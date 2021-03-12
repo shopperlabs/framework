@@ -24,6 +24,7 @@ class CreateOrderShippingsTable extends Migration
             $table->date('returned_at');
             $table->string('tracking_number')->nullable();
             $table->string('tracking_number_url')->nullable();
+            $table->float('shipping_amount')->default(0);
             $table->json('voucher')->nullable();
 
             $this->addForeignKey($table, 'order_id', $this->getTableName('orders'), false);

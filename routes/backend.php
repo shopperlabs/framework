@@ -32,7 +32,7 @@ Route::resource('reviews', 'ReviewController');
 Route::resource('discounts', 'DiscountController');
 Route::resource('inventory-histories', 'InventoryHistoryController');
 
-Route::prefix('setting')->as('settings.')->group(function () {
+Route::prefix('settings')->as('settings.')->group(function () {
     Route::view('/', 'shopper::pages.settings.index')->name('index');
     Route::view('/management', 'shopper::pages.settings.management.index')->name('users');
     Route::view('/legal', 'shopper::pages.settings.legal')->name('legal');
@@ -40,6 +40,7 @@ Route::prefix('setting')->as('settings.')->group(function () {
     Route::get('/management/roles/{role}', [SettingController::class, 'role'])->name('user.role');
     Route::view('/analytics', 'shopper::pages.settings.analytics')->name('analytics');
     Route::view('/payments', 'shopper::pages.settings.payments.general')->name('payments');
+    Route::view('/carriers', 'shopper::pages.settings.carriers.general')->name('carriers');
     Route::view('/general', 'shopper::pages.settings.general')->name('shop');
     Route::resource('inventories', 'InventoryController');
     Route::resource('attributes', 'AttributeController')->except('destroy', 'store', 'update');

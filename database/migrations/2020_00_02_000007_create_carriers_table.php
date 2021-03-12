@@ -23,8 +23,8 @@ class CreateCarriersTable extends Migration
             $table->string('slug')->unique()->nullable();
             $table->string('logo')->nullable();
             $table->string('link_url')->nullable();
-            $table->string('description')->nullable();
-            $table->integer('shipping_amount')->default(0);
+            $table->text('description')->nullable();
+            $table->text('instructions')->nullable();
             $table->boolean('is_enabled')->default(false);
         });
     }

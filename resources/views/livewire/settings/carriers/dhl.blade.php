@@ -3,9 +3,9 @@
     <div class="md:grid md:grid-cols-3 md:gap-6">
         <div class="md:col-span-1">
             <div class="px-4 sm:px-0">
-                <h3 class="text-lg font-semibold leading-6 text-gray-900">{{ __("Stripe") }}</h3>
+                <h3 class="text-lg font-semibold leading-6 text-gray-900">{{ __("DHL") }}</h3>
                 <p class="mt-4 text-sm leading-5 text-gray-600">
-                    {{ __("Accept payments on your store using third-party providers such as Stripe.") }}
+                    {{ __("DHL International GmbH (DHL) is a German international courier, package delivery and express mail service.") }}
                 </p>
             </div>
         </div>
@@ -17,9 +17,9 @@
                             <div class="flex-shrink-0 w-2.5 h-2.5 rounded-full {{ $this->enabled ? 'bg-green-400' : 'bg-gray-400' }}"></div>
                             <h3 class="text-base leading-6 font-medium text-gray-900">
                                 @if ($this->enabled)
-                                    {{ __('Stripe is available for your store.') }}
+                                    {{ __('DHL is available for your store.') }}
                                 @else
-                                    {{ __('Stripe is disabled.') }}
+                                    {{ __('DHL is disabled.') }}
                                 @endif
                             </h3>
                         </div>
@@ -27,29 +27,28 @@
                 </div>
                 <div class="px-4 py-5 bg-white sm:p-6">
                     <div class="flex-shrink-0">
-                        <svg class="h-12 w-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.779 40.164">
-                            <g transform="translate(24.946 -325.034)">
-                                <g transform="translate(-38.97 315.774) scale(.26458)">
-                                    <path d="M414 113.4c0-25.6-12.4-45.8-36.1-45.8-23.8 0-38.2 20.2-38.2 45.6 0 30.1 17 45.3 41.4 45.3 11.9 0 20.9-2.7 27.7-6.5v-20c-6.8 3.4-14.6 5.5-24.5 5.5-9.7 0-18.3-3.4-19.4-15.2h48.9c0-1.3.2-6.5.2-8.9zm-49.4-9.5c0-11.3 6.9-16 13.2-16 6.1 0 12.6 4.7 12.6 16z" class="st0" clip-rule="evenodd" fill="#6772e5" fill-rule="evenodd"/>
-                                    <path d="M301.1 67.6c-9.8 0-16.1 4.6-19.6 7.8l-1.3-6.2h-22v116.6l25-5.3.1-28.3c3.6 2.6 8.9 6.3 17.7 6.3 17.9 0 34.2-14.4 34.2-46.1-.1-29-16.6-44.8-34.1-44.8zm-6 68.9c-5.9 0-9.4-2.1-11.8-4.7l-.1-37.1c2.6-2.9 6.2-4.9 11.9-4.9 9.1 0 15.4 10.2 15.4 23.3 0 13.4-6.2 23.4-15.4 23.4z" class="st0" clip-rule="evenodd" fill="#6772e5" fill-rule="evenodd"/>
-                                    <path clip-rule="evenodd" fill="#6772e5" fill-rule="evenodd" d="M248.9 56.3V36l-25.1 5.3v20.4z"/>
-                                    <path class="st0" clip-rule="evenodd" fill="#6772e5" fill-rule="evenodd" d="M223.8 69.3h25.1v87.5h-25.1z"/>
-                                    <path d="M196.9 76.7l-1.6-7.4h-21.6v87.5h25V97.5c5.9-7.7 15.9-6.3 19-5.2v-23c-3.2-1.2-14.9-3.4-20.8 7.4z" class="st0" clip-rule="evenodd" fill="#6772e5" fill-rule="evenodd"/>
-                                    <path d="M146.9 47.6l-24.4 5.2-.1 80.1c0 14.8 11.1 25.7 25.9 25.7 8.2 0 14.2-1.5 17.5-3.3V135c-3.2 1.3-19 5.9-19-8.9V90.6h19V69.3h-19z" class="st0" clip-rule="evenodd" fill="#6772e5" fill-rule="evenodd"/>
-                                    <path d="M79.3 94.7c0-3.9 3.2-5.4 8.5-5.4 7.6 0 17.2 2.3 24.8 6.4V72.2c-8.3-3.3-16.5-4.6-24.8-4.6C67.5 67.6 54 78.2 54 95.9c0 27.6 38 23.2 38 35.1 0 4.6-4 6.1-9.6 6.1-8.3 0-18.9-3.4-27.3-8v23.8c9.3 4 18.7 5.7 27.3 5.7 20.8 0 35.1-10.3 35.1-28.2-.1-29.8-38.2-24.5-38.2-35.7z" class="st0" clip-rule="evenodd" fill="#6772e5" fill-rule="evenodd"/>
-                                </g>
+                        <svg width="75" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                              <path d="M.002 0h74.996v47.85H.002V0z" fill="#FFCB01"/>
+                              <path d="M13.938 18.216l-2.322 3.156h12.657c.64 0 .632.241.32.667-.318.431-.85 1.176-1.174 1.615-.164.222-.461.626.522.626h5.176l1.534-2.084c.951-1.292.083-3.978-3.318-3.978l-13.395-.002z" fill="#D80613"/>
+                              <path d="M10.676 28.497l4.665-6.34h5.79c.64 0 .631.243.319.668l-1.182 1.608c-.164.222-.46.626.522.626h7.754c-.643.884-2.737 3.438-6.491 3.438H10.676zm26.716-3.44l-2.53 3.44h-6.674l2.53-3.44h6.674zm10.221-.778h-16.32l4.462-6.063h6.67l-2.556 3.477h2.976l2.56-3.477h6.67l-4.462 6.063zm-.573.779l-2.53 3.44h-6.67l2.53-3.44h6.67zM1.155 26.414h9.829l-.537.73H1.155v-.73zm0-1.357h10.828l-.538.73H1.155v-.73zm0 2.714h8.831l-.535.726H1.155v-.726zm72.692-.627h-9.794l.538-.73h9.256v.73zm0 1.353H63.059l.533-.726h10.255v.726zm-8.258-3.44h8.258v.732h-8.795l.536-.732zm-4.275-6.84l-4.463 6.062h-7.069l4.466-6.063h7.066zm-12.103 6.84s-.487.668-.725.987c-.836 1.133-.097 2.451 2.637 2.451h10.713l2.53-3.438H49.21z" fill="#D80613"/>
                             </g>
+                            <defs>
+                              <clipPath id="clip0">
+                                <path fill="#fff" d="M0 0h75v47.85H0z"/>
+                              </clipPath>
+                            </defs>
                         </svg>
                     </div>
                     <div class="mt-4">
                         <p class="text-gray-500 text-sm">
-                            {{ __("This provider allows you to integrate Laravel Cashier into your store to allow your customers to make payments, subscriptions using Stripe.") }}
-                            <a href="https://laravel.com/docs/billing" target="_blank" class="text-blue-600 hover:text-blue-500 transition-colors duration-150 ease-in-out">{{ __("Learn more about Laravel Cashier") }}</a>
+                            {{ __("This carrier allows you to integrate a default shipping method into your shop to ship your orders items, using the DHL carrier.") }}
+                            <a href="https://www.dhl.com/global-en/home.html" target="_blank" class="text-blue-600 hover:text-blue-500 transition-colors duration-150 ease-in-out">{{ __("Learn more about DHL") }}</a>
                         </p>
                         @if(! $this->enabled)
                             <span class="mt-4 inline-flex rounded-md shadow-sm">
-                                <button wire:click="enableStripe" wire.loading.attr="disabled" type="button" class="inline-flex items-center py-2 px-4 border border-gray-300 rounded-md text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:border-light-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800 transition duration-150 ease-in-out">
-                                    <svg wire:loading wire:target="enableStripe" class="animate-spin -ml-1 mr-3 h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24">
+                                <button wire:click="enableDHL" wire.loading.attr="disabled" type="button" class="inline-flex items-center py-2 px-4 border border-gray-300 rounded-md text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:border-light-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800 transition duration-150 ease-in-out">
+                                    <svg wire:loading wire:target="enableDHL" class="animate-spin -ml-1 mr-3 h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24">
                                         <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
                                         <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
                                     </svg>
@@ -77,8 +76,8 @@
                     <div class="px-4 sm:px-0">
                         <h3 class="text-lg font-semibold leading-6 text-gray-900">{{ __("Environnement") }}</h3>
                         <p class="mt-4 text-sm leading-5 text-gray-600">
-                            {{ __("Stripe has two environments Sandbox and Live, make sure to use sandbox for testing before going live.") }}
-                            {{ __("API Keys can be grabbed from") }} <a href="https://dashboard.stripe.com/account/apikeys" target="_blank" class="text-blue-700 hover:text-blue-600">https://dashboard.stripe.com/account/apikeys</a>
+                            {{ __("DHL has two environments Sandbox and Live, make sure to use sandbox for testing before going live.") }}
+                            {{ __("API Keys can be grabbed from") }} <a href="https://developer.dhl.com/" target="_blank" class="text-blue-700 hover:text-blue-600">https://developer.dhl.com/</a>
                             {{ __("To enable Sandbox switch Sandbox mode to True.") }}
                         </p>
                     </div>
@@ -88,9 +87,9 @@
                         <div class="px-4 py-5 bg-white sm:p-6 space-y-4">
                             <div class="grid gap-4 sm:grid-cols-6 sm:gap-6">
                                 <div class="col-span-6">
-                                    <label for="stripe_mode" class="block text-sm font-medium leading-5 text-gray-700">{{ __("Stripe Mode") }}</label>
+                                    <label for="dhl_mode" class="block text-sm font-medium leading-5 text-gray-700">{{ __("DHL Mode") }}</label>
                                     <div class="mt-1 rounded-md shadow-sm">
-                                        <select wire:model="stripe_mode" id="stripe_mode" class="form-select block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+                                        <select wire:model="dhl_mode" id="dhl_mode" class="form-select block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                                             <option value="sandbox">Sandbox</option>
                                             <option value="live">Live</option>
                                         </select>
@@ -98,23 +97,23 @@
                                 </div>
 
                                 <div class="sm:col-span-3">
-                                    <x-shopper-input.group label="Public key" for="public_key">
-                                        <input wire:model="stripe_key" id="public_key" type="text" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" autocomplete="off" />
+                                    <x-shopper-input.group label="Account ID" for="dhl_account_id">
+                                        <input wire:model="dhl_account_id" id="dhl_account_id" type="text" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" autocomplete="off" />
                                     </x-shopper-input.group>
                                 </div>
 
                                 <div class="sm:col-span-3">
-                                    <x-shopper-input.group label="Secret key" for="secret_key">
-                                        <input wire:model="stripe_secret" id="secret_key" type="text" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" autocomplete="off" />
+                                    <x-shopper-input.group label="Username" for="dhl_account_username">
+                                        <input wire:model="dhl_secret" id="dhl_account_username" type="text" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" autocomplete="off" />
                                     </x-shopper-input.group>
                                 </div>
 
                                 <div class="sm:col-span-6">
-                                    <x-shopper-input.group label="Webhook key" for="webhook_key">
-                                        <input wire:model="stripe_webhook_secret" id="webhook_key" type="text" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" autocomplete="off" />
+                                    <x-shopper-input.group label="Password" for="dhl_account_password">
+                                        <input wire:model="dhl_account_password" id="dhl_account_password" type="password" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" autocomplete="off" />
                                     </x-shopper-input.group>
                                     <p class="mt-2 text-gray-500 text-sm leading-5">
-                                        {{ __("Webhooks Key can be grabbed from") }} <a href="https://dashboard.stripe.com/account/webhooks" target="_blank" class="text-blue-600 hover:text-blue-500">https://dashboard.stripe.com/account/webhooks</a>
+                                        {{ __("API Keys can be grabbed from") }} <a href="https://developer.dhl.com/user/register" target="_blank" class="text-blue-600 hover:text-blue-500">https://developer.dhl.com/user/register</a>
                                     </p>
                                 </div>
                             </div>
@@ -127,37 +126,6 @@
         <div class="hidden sm:block">
             <div class="py-5">
                 <div class="border-t border-gray-200"></div>
-            </div>
-        </div>
-
-        <div class="mt-10 sm:mt-0">
-            <div class="md:grid md:grid-cols-3 md:gap-6">
-                <div class="md:col-span-1">
-                    <div class="px-4 sm:px-0">
-                        <h3 class="text-lg font-semibold leading-6 text-gray-900">{{ __("Cashier currency") }}</h3>
-                        <p class="mt-4 text-sm leading-5 text-gray-500">
-                            {{ __("The default currency that will be used when generating charges from your store.") }}
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-5 md:mt-0 md:col-span-2">
-                    <div class="shadow overflow-hidden sm:rounded-md">
-                        <div class="px-4 py-5 bg-white sm:p-6">
-                            <div class="grid grid-cols-6 gap-6">
-                                <div class="col-span-6">
-                                    <label for="currency" class="block text-sm font-medium leading-5 text-gray-700">{{ __("Default Currency") }}</label>
-                                    <div class="mt-1 rounded-md shadow-sm">
-                                        <select wire:model="currency" id="currency" class="form-select block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
-                                            @foreach($currencies as $currency)
-                                                <option value="{{ $currency->code }}">{{ $currency->name }} ({{ $currency->code }})</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 

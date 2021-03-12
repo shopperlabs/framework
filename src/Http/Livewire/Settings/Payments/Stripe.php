@@ -89,7 +89,7 @@ class Stripe extends Component
      *
      * @return void
      */
-    public function enabledStripe()
+    public function enableStripe()
     {
         PaymentMethod::query()->create([
             'title' => 'Stripe',
@@ -140,7 +140,7 @@ class Stripe extends Component
             'stripe_key'        => $this->stripe_key,
             'stripe_secret'     => $this->stripe_secret,
             'stripe_webhook_secret' => $this->stripe_webhook_secret,
-            'cahier_currency'   => $this->currency,
+            'cashier_currency'   => $this->currency,
         ]);
 
         Artisan::call('config:clear');
