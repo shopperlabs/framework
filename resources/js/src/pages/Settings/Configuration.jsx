@@ -112,7 +112,7 @@ const Configuration = () => {
     if (Object.entries(country.currencies).length > 0) {
       const code = Object.entries(country.currencies)[0][0];
 
-      axios.get(`/currency/${code}`)
+      axios.get(`/currencies/${code}`)
         .then(response => {
           const currency = response.data.data;
           setSelectedCurrency(currency.id);

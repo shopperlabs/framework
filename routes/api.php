@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Shopper\Framework\Http\Controllers\Api\Catalog\{ProductController, CategoryController};
 use Shopper\Framework\Http\Controllers\Api\Settings\{CountryController, CurrencyController, SettingController};
 
 /*
@@ -14,9 +15,11 @@ use Shopper\Framework\Http\Controllers\Api\Settings\{CountryController, Currency
 |
 */
 
+Route::get('/catalog/categories', [CategoryController::class, 'lists']);
+Route::get('/catalog/products', [ProductController::class, 'lists']);
 Route::get('/countries', [CountryController::class, 'lists']);
 Route::get('/currencies', [CurrencyController::class, 'lists']);
-Route::get('/currency/{code}', [CurrencyController::class, 'getCurrencyByCode']);
+Route::get('/currencies/{code}', [CurrencyController::class, 'getCurrencyByCode']);
 
 // shop initialization
 Route::post('/configuration', [SettingController::class, 'general']);
